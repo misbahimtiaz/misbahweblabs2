@@ -43,7 +43,7 @@ app.use(function (err, req, res, next) {
 
 mongoose
   .connect(
-    "mongodb+srv://umerdb:umera5033@cluster0.ot9gn.mongodb.net/productscrud?retryWrites=true&w=majority",
+    "mongodb+srv://misbahdb:misbah12345@cluster0.uup4y.mongodb.net/productscrud?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connected to Mongo...."))
